@@ -1,7 +1,7 @@
 module.exports = {
     transform: {
-    '^.+\\.tsx?$': ['ts-jest', { tsconfig: 'tsconfig.test.json' }]
-  },
+        '^.+\\.tsx?$': ['ts-jest', {tsconfig: 'tsconfig.test.json'}]
+    },
     testEnvironment: 'jsdom',
     roots: ['src']
 };
